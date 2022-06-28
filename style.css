@@ -2,3 +2,11 @@
     background-color: #FAFAFA;
     margin: auto;
 }
+
+.celulares{
+  display: block;
+  margin-left: 255px;
+  margin-right: auto;
+  margin-top: 35px;
+  width: 419px;
+}
