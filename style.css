@@ -1,12 +1,30 @@
 *{
-    background-color: #FAFAFA;
     margin: auto;
+}
+
+body{
+  background-color: #fafafa;
 }
 
 .celulares{
   display: block;
   margin-left: 255px;
-  margin-right: auto;
   margin-top: 35px;
-  width: 419px;
+  float: left;
+  width: 420px;
+}
+
+#main-content{
+  background-color: #FFFFFF;
+  margin-right: 220px;
+  margin-top: 35px;
+  border: 1px solid #D8D8D8;
+  float: right;
+  width: 400px;
+}
+
+.access{
+  text-align: center;
+  width: 300px;
+  margin-top: 60px;
 }
