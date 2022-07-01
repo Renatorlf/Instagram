@@ -16,15 +16,42 @@ body{
 
 #main-content{
   background-color: #FFFFFF;
-  margin-right: 220px;
+  margin-right: 250px;
   margin-top: 35px;
   border: 1px solid #D8D8D8;
   float: right;
-  width: 400px;
+  width: 380px;
 }
 
 .access{
   text-align: center;
   width: 300px;
-  margin-top: 60px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
+
+form{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form div{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+form input, form textarea {
+  outline: none;
+  padding: 12px;
+  width: 250px;
+  border: 1px solid #D8D8D8;
+  border-radius: 2px;
+  background-color: #fafafa;
+
+}
+
+/*.input1,.input2{
+  text-align: center;
+  padding: 3px;
+  
+} */
