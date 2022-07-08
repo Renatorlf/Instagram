@@ -71,33 +71,98 @@ div.titulo {
   margin-top: 30px;
   width: 295px;
 }
+
 div.titulo span {
   background-color: white;
   top: -0.6em;
   position: relative;
   padding: 0 20px 0px 20px;
   color: #9b9b9b;
-  font-family:'helvetica';
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bolder;
   font-size: 15px;
 }
 
-#face{
-  text-align: center;
-  width: 200px;
-  padding: 5px 0 20px 0px;
+#sublinhado{
+  text-decoration: none;
 }
+
 .logo-face{
-  margin-top: 20px;
+  margin-top: 3px;
+  margin-left: 100px;
   width: 18px;
+  float: left;
+}
+
+.link-face{
+  width: 180px;
+  margin-top: 40px;
+  margin-right: 74px;
+  float: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight:bolder;
+  color:#54658a;    
+}
+
+.ajuda{
   text-align: center;
-  
+  margin-top: 22px;
+  margin-bottom: 26px;
+  font-size: 13px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #141422;
+}
+
+.register{
+  background-color: #FFFFFF;
+  margin-right: 250px;
+  margin-top: 10px;
+  border: 1px solid #D8D8D8;
+  float: right;
+  width: 380px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+  font-size: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #141422;
+}
+
+.link-register{
+  font-weight: 500;
+  text-decoration: none;
+  color: #3e9af0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#dawnload{
+  margin-right: 250px;
+  margin-top: 5px;
+  float: right;
+  width: 380px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+  font-size: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #141422;
 }
 
 a{
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bolder;
-  font-size: 15px;
   text-decoration: none;
-  text-align: top;
+}
+
+.obtenha{
+  margin-bottom: 20px;
+}
+.botton-apple{
+  width: 150px;
+  padding-right: 2px;
+}
+
+.botton-play{
+  width: 150px;
+  padding-left: 2px;
+
 }
